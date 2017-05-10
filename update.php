@@ -122,7 +122,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="login.html" class="
 
                                     <div class="form-group ">
                                       <label>Nama Diagnosa</label>
-                                      <input name="nama" class="form-control" placeholder="contoh Pemeriksaan xx xx"  required />
+                                      <input name="nama" class="form-control" placeholder="contoh Pemeriksaan xx xx" autocomplete="off" required />
                                     </div>
                                         <br>
                                       <button class="btn btn-lg btn-primary btn-block" type="submit" name="update"> Update</button>
