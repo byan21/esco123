@@ -88,7 +88,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="login.html" class="
                  <hr />
                  <div class="container">
                    <div class="row">
-                       <div class="col-md-12 col-sm-12">
+                       <div class="col-md-8 col-sm-12">
                            <div class="panel panel-primary">
                                <div class="panel-heading">
                                    Hapus Data Diagnosa
@@ -98,7 +98,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="login.html" class="
                                      <div class="form-group">
                                        <label for="diagnosa">Pilih diagnosa :</label>
                                        <select name="diagnosa">
-                                           <opt>--Pilih Data Diagnosa--</option>
+                                           <option>--Pilih Data Diagnosa--</option>
                                            <?php
                                            $db=mysqli_connect("localhost", "root", "","data_b4s3");
                                            $sql = mysqli_query($db,"SELECT * FROM diagnosa_tb");
