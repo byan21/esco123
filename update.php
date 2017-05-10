@@ -116,13 +116,13 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="login.html" class="
                                   <form class="form-group input-group" action="#" method="POST">
                                     <div class="form-group ">
                                       <label>Kode Diagnosa</label>
-                                      <input id="kode" name="kode" class="form-control" placeholder="contoh Z00.xx"  required/>
+                                      <input id="kode" name="kode" class="form-control" placeholder="contoh Z00.xx" autocomplete="off" required/>
                                       <div id="kodelist"> </div>
                                     </div>
 
                                     <div class="form-group ">
                                       <label>Nama Diagnosa</label>
-                                      <input name="nama" class="form-control" placeholder="contoh Pemeriksaan xx xx" autocomplete="off" required />
+                                      <input name="nama" class="form-control" placeholder="contoh Pemeriksaan xx xx"  required />
                                     </div>
                                         <br>
                                       <button class="btn btn-lg btn-primary btn-block" type="submit" name="update"> Update</button>
